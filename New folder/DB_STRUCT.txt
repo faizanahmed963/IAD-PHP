@@ -1,0 +1,48 @@
+Database:
+-Admin:
+	id
+	name
+	address
+	mobile
+	email
+	login_id
+	password
+	
+-customer
+	id
+	name
+	address
+	mobile
+	email
+	login_id
+	password
+	
+-Brand
+	id
+	title
+	
+-Category
+	id
+	title
+
+-contact
+	id
+	user_id
+	message
+	email
+	phone
+
+-item
+	id
+	brand_id
+	cat_id
+	title
+	price
+	description
+	tags
+	image
+	
+-cart
+	id
+	user_id
+	item_id
